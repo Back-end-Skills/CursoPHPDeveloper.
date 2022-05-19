@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Eventos em JavaScript</h1>
+    <h2>onclick</h2>
+    <button onclick="car_conteudo()">Carregar Conteúdo</button>
+    <p id="conteudo"></p>
+
+    <h2>Eventos onmouseover e onmouseout</h2>
+    <div onmouseout="mouseOut()" onmouseover="mouseOver()" class="__cont" id="mouseAll">
+        Passe o Mouse
+    </div>
+
+    <h2>Eventos onchange & onkeyup</h2>
+
+    <form action="">
+        
+        Nome: <input type="text" name="nome" id="nome" onchange="converText()">
+        <br><br>
+
+        <div id="erroSenha"> </div>
+        Senha: <input type="password" name="senha" id="senha" onkeyup="validarSenha()"> 
+       <br><br>
+
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
