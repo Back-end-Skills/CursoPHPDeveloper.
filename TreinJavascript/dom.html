@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM em JavaScript</title>
+</head>
+<body>
+    <h1>DOM - Document Object Model</h1>
+    <p>DOM é um acrônimo para Document Object Model, ele representa os objects de 
+        uma página html em forma de uma árvore
+    </p>
+    <p>Através dele que acessamos os elementos dentro de uma página htm</p>
+    
+    <ul>
+        <ol><code> document.getElementById("id") </code></ol>
+        <ol><code> document.getElementByName("name") </code></ol>
+        <ol><code> document.getElementByTagName("span") </code></ol>
+        <ol><code> document.getElementByClassName("nome-da-classe") </code></ol>
+    </ul>
+
+    <div>
+        <p id="exemplo-1"></p>
+    </div>
+
+    <hr>
+    
+    <input type="checkbox" name="curso" value="html">HTML
+    <input type="checkbox" name="curso" value="css">CSS
+    <input type="checkbox" name="curso" value="scss">SCSS
+    <button onclick="exemplo2()">Exemplo 2 NodeList</button>
+
+    <hr>
+
+    <span>Teste 00</span>
+    <span>Teste 01</span>
+    <span>Teste 02</span>
+    <span>Teste 03</span>
+    <button onclick="exemplo3()">Exemplo 3 Object HTMLCollection</button>
+
+    <hr>
+
+    <ul>
+        <li>Naruto</li>
+        <li>Sasake</li>
+        <li>Obito</li>
+        <li>Itachi</li>
+        <li>Madara</li>
+        <li>Kakashi</li>
+    </ul> 
+    <button onclick="exemplo4()">Exemplo 4 Object HTMLCollection</button>
+
+    <hr>
+
+    <p class="product">Açaí</p>
+    <p class="product">Amora</p>
+    <p class="product">Abacate</p>
+    <p class="product">Cereja</p>
+    <button onclick="exemplo5()">Exemplo 5 Object HTMLCollection </button>
+
+    <script src="dom.js"></script>
+</body>
+</html>
