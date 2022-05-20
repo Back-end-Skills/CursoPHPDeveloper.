@@ -1,7 +1,7 @@
 <h1 style="align:center">Treinamento em PHP</h1>
 
 ## MÓDULO 
-- [ ] HTML & CSS 
+- [x] HTML & CSS 
 - [ ] Javascript
 - [ ] Bootstrap 5
 - [ ] PHP
