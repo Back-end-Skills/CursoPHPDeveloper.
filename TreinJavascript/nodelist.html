@@ -7,24 +7,56 @@
     <title>NodeList - DOM</title>
 </head>
 <body>
-    <input type="checkbox"/>HTML 
-    <input type="checkbox"/>CSS 
-    <input type="checkbox"/>SCSS <br>
+    
+    <h1>NodeList (DOM Document Object Model)</h1>
+    
+    <p>As funções que acessam elementos da página html retornam sempre um conjunto de elementos.
+        Esse conjunto é denominado NodeList</p>
+
+    <p>Através dele que acessamos os elementos dentro de uma página htm</p>
+    
+    <code>nomeElemento.length;</code><br>
+    <code>nomeElemento[0]['value'];</code><br>
+    <code>for (var i = 0; i < nomeElemento.length; i++){
+                nomeElemento[i]['value'];
+        }</code><br>
+    
+
     <hr>
+    
+    <input type="checkbox" name="curso" value="html">HTML
+    <input type="checkbox" name="curso" value="css">CSS
+    <input type="checkbox" name="curso" value="scss">SCSS
+    <button onclick="exemplo2()">Exemplo 2 NodeList</button>
+
+    <hr>
+
+    <span>Teste 00</span>
+    <span>Teste 01</span>
+    <span>Teste 02</span>
+    <span>Teste 03</span>
+    <button onclick="exemplo3()">Exemplo 3 Object HTMLCollection</button>
+
+    <hr>
+
     <ul>
         <li>Naruto</li>
-        <li>Sasuke</li>
-        <li>Rock</li>
-        <li>Gay</li>
+        <li>Sasake</li>
+        <li>Obito</li>
+        <li>Itachi</li>
+        <li>Madara</li>
         <li>Kakashi</li>
-    </ul>
+    </ul> 
+    <button onclick="exemplo4()">Exemplo 4 Object HTMLCollection</button>
 
     <hr>
 
-    <ul>
-        <ol>Time 7</ol>
-        <ol>Time 2</ol>
-    </ul>
+    <p class="product">Açaí</p>
+    <p class="product">Amora</p>
+    <p class="product">Abacate</p>
+    <p class="product">Cereja</p>
+    <button onclick="exemplo5()">Exemplo 5 Object HTMLCollection </button>
+
 
 
     <script src="nodelist.js"></script>

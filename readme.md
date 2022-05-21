@@ -2,7 +2,7 @@
 
 ## MÓDULO 
 - [x] HTML & CSS 
-- [ ] Javascript
+- [x] Javascript
 - [ ] Bootstrap 5
 - [ ] PHP
 - [ ] PHP e Banco de Dados
