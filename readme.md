@@ -3,6 +3,7 @@
 ## MÓDULO 
 - [x] HTML & CSS 
 - [x] Javascript
+- [ ] Criar o Layout do Site
 - [ ] Bootstrap 5
 - [ ] PHP
 - [ ] PHP e Banco de Dados
